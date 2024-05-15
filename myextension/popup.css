@@ -1,0 +1,104 @@
+/* Add your Tailwind CSS classes here */
+.navbar {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav-item {
+    color: black;
+    font-weight: 600 ;
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 20px
+}
+
+.nav-item:hover {
+    color: green;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 20px;
+    margin-left: 250px;
+    gap: 40px;
+  
+    /* margin-left: 300px; */
+}
+.logo{
+   
+    
+    
+}
+
+/* .chat-list { */
+    /* Add styling for chat list */
+    /* Basic styling */
+
+
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+.chat-list {
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.contact {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-display {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.chat {
+    margin-bottom: 20px;
+}
+
+.message {
+    background-color: #e2f9ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.upgrade-button button{
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: green ;
+    border: none;
+    cursor: pointer;
+}
+.upgrade-button button :hover{
+    border: 2px black;
+}
+
+/* } */
